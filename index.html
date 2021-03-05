@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lotus</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap" rel="stylesheet">
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        font-family: 'Lato', sans-serif;
+        font-size: 14px;
+        background-image: url("index.jpeg");
+        
+        background-size: cover;
+        
+    }
+    .logo{
+        letter-spacing:8px;
+        color:lightgray;
+        font-size: 35px;
+        margin-left: 45%;
+        margin-top: 15%;
+        
+
+
+    }
+    #img{
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        top: 32%;
+        font-size: xx-large;
+        border-radius: 50%;
+    }
+    .username{
+        margin-top: 2%;
+    
+    }
+    input{
+        padding: 7px;
+        width: 100%;
+        
+        
+    
+    }
+    #btn{
+        padding: 12px;
+        width: 100%;
+        margin-top: 1%;
+        background-color: grey;
+        opacity: 0.9;
+        color: white;
+        border: none;
+    }
+    .inputs{
+        width: 99%;
+        margin-left: 0.5%;
+        border: none;
+    }
+    @media only screen and (max-width: 600px) {
+        .logo{
+            margin-top: 60%;
+            margin-left: 24%;
+        }
+        #img{
+            top: 33%;
+        }
+        .inputs{
+            margin-top: 7%;
+            width: 96%;
+            margin-left: 2%;
+        }
+        #btn{
+            margin-top: 3%;
+        }
+    }
+</style>
+<body>
+    <h3 class="logo">LOTUS<img id="img" src="https://www.lotusbook247.com/m/assets/icon/icon-57.png" alt="lotus"></h3>
+    <div class="inputs"> 
+        <input type="text" class="username" placeholder="Username"><br><br>
+        <input type="text" placeholder="Password">
+        <button type="submit" id="btn">Log in</button>    
+    </div>
+    
+</body>
+</html>
